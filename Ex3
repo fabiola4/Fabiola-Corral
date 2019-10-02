@@ -4,6 +4,7 @@ function extractRbg(filename)
      imgRed = imgFunction[:, :, 1]
      imgBlue = imgFunction[:, :, 2]
      imgGreen = imgFunction[:, :, 3]
+     println("BUG BUG BUG")
      return imgRed, imgBlue, imgGreen
     
  end
